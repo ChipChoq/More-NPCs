@@ -1,0 +1,19 @@
+# NPC data
+name Ditzy Doo
+scene Cloudsdale
+pos 77.8596 122.549 -108.674
+rot 0 2.58719 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData CURpdHp5IERvbwMCNgEAAAAAAAAAAAAA+vuk+vukxs3g8+tbgBqPCQAMAAAAAADvOX4/aYM=
+
+# Quest metadata
+questId 17
+questName Speak to Ditzy Doo
+questDescr Standing in the post office
+
+# Main quest commands
+say I've got you a letter!
+answer end Thanks
+
+label end
+end

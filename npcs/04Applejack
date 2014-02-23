@@ -1,0 +1,19 @@
+# NPC data
+name Applejack
+scene SweetAppleAcres
+pos 2.89362 -110.121 -97.2428
+rot 0 -0.271039 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData CUFwcGxlamFjawECLwEAAAAAAAAAAAAA8u6n/zIx/rBMRcIoLhK2CQADAAAAAAClLX8/oHY=
+
+# Quest metadata
+questId 4
+questName Speak to Applejack
+questDescr Standing in Sweet Apple Acres
+
+# Main quest commands
+say Ah got a few apples for ya Anon. Ripe and juicy.
+answer end ...
+
+label end
+end

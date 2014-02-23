@@ -1,0 +1,19 @@
+# NPC data
+name Roseluck
+scene Canterlot
+pos -25.6861 0.0457631 -38.1369
+rot 0 1.45376 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData CFJvc2VsdWNrAQI3AQAAAAAAAAAAAACuF1bZdJ79/te59462trcPAA8AAAAAACabfz9mZg==
+
+# Quest metadata
+questId 18
+questName Speak to Roseluck
+questDescr Standing beside the hat shop
+
+# Main quest commands
+say Hey handsome! Would you like to see my Roseluck?
+answer end ...
+
+label end
+end

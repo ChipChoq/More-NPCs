@@ -1,0 +1,48 @@
+# NPC data
+name Trixie Lulamoon
+scene Canterlot
+pos -57.9286 0.169465 -15.2108
+rot 0 -1.3552 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData D1RyaXhpZSBMdWxhbW9vbgICMwEAAAAAAAAAAAAAs+P/2fD/Wa7zVTpwPIEPAAAMAAEAAACEVH8/HIM=
+
+# Quest metadata
+questId 11
+questName The Great and Powerful Trixie
+questDescr Standing in Canterlot
+
+# Main quest commands
+say Sorry, but The Great and Powerful Trixie have no time to be signing autographs.
+answer who The great who?
+answer quest Is something the matter?
+answer farewell I'll let you be then.
+
+label who
+say You have never heard of The Great and Powerful Trixie!? Such a pity. I am the greatest, most magical unicorn in all of Equestria!
+answer twilight I thought Twilight Sparkle was the greatest unicorn in all of Equestria?
+answer quest Never knew there were such unicorns.
+answer farewell Oh! If you say so.
+
+label quest
+say Of course there is! How can The Great and Powerful Trixie demonstrate her brilliant magic if The Great and Powerful Trixie does not have her magnificent caravan and her props!?
+say Trixie cannot work under these conditions. Bad enough the Royal Guards have the nerve of towing my caravan, but Trixie is sure those Ponyville brats Snips and Snails have made off with my items.
+say If you wish to be of any help to The Great and Powerful Trixie, why don't you return to Ponyville and retrieve what Snips and Snails has taken from me?
+answer cannot I don't think I can, I have not seen Snips and Snails at all in Ponyville.
+answer farewell I will see what I can do.
+
+label twilight
+say HA! Twilight Sparkle's power is inferior compared to the likes of my magic! Yes she has defeated me twice, saved Equestria countless of times and possess the Element of Magic, but I possess far greater talent than her.
+answer farewell You certainly possess a lot of something...
+answer cannot I still think Twilight Sparkle is best pony.
+answer farewell Then I'll let you be at peace, oh Great and Powerful Trixie.
+
+label cannot
+say I see, this displeases Trixie. Well, so be it. The show must go on!
+answer farewell Sorry. Only so much I can do.
+
+label farewell
+say Very well, you are excused from my presence.
+answer end (Wow!)
+
+label end
+end

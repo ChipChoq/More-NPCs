@@ -1,0 +1,19 @@
+# NPC data
+name Lyra
+scene PonyVille
+pos -102.575 -183.303 169.118
+rot 0 -2.58719 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData EUx5cmEgSGVhcnRzdHJpbmdzAgIyAQAAAAAAAAAAAACw6Of//v+T/9v21TzYYbgPAA8AAAAAAMsyfz+5eA==
+
+# Quest metadata
+questId 6
+questName Speak to Lyra
+questDescr Standing on a balcony
+
+# Main quest commands
+say Hands! Show me your hands-... oh you're just a pony... Take care.
+answer end ...
+
+label end
+end

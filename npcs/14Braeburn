@@ -1,0 +1,19 @@
+# NPC data
+name Braeburn
+scene PonyVille
+pos  -2.85246 -194.679 180.956
+rot  0 -3.07999 0 0
+ponyData CEJyYWVidXJuAQNiAAAAAAAAAAAAAAD/qz//tlD/8oJI4lE6xOAOAAQAAAAAAAJ6gD/UgQ==
+
+# Quest metadata
+questId 14
+questName Braeburn
+questDescr Braeburn
+
+# Quest commands
+say Yee Haw! Follow me to the Gay Bath House!
+answer end mhmm-Apples
+
+# End of conversation
+label end
+end

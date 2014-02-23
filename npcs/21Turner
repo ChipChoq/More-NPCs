@@ -1,0 +1,19 @@
+# NPC data
+name Time Turner
+scene Canterlot
+pos -47.6719 0.175462 -47.8324
+rot 0 -0.566719 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData C1RpbWUgVHVybmVyAQM1AQAAAAAAAAAAAABTQiVTQiXCqXycxv+abSwNAA0AAAAAAN7pfz9EiQ==
+
+# Quest metadata
+questId 21
+questName Speak to Time Turner
+questDescr Standing beside the hat shop
+
+# Main quest commands
+say Oh. What time is it? I must be going now.
+answer end B-bye
+
+label end
+end

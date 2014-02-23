@@ -1,0 +1,19 @@
+# NPC data
+name Donut Joe
+scene Canterlot
+pos -65.018 0.0418116 35.7212
+rot 0 2.88287 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData CURvbnV0IEpvZQIDOAEAAAAAAAAAAAAAuopcuopc9ei7TqBLR/95AwANAAAAAADNzIw/j28=
+
+# Quest metadata
+questId 19
+questName Speak to Donut Joe
+questDescr Standing beside the donut shop
+
+# Main quest commands
+say Hey! I'm Donut. Would you like to see my ponut?
+answer end ...
+
+label end
+end

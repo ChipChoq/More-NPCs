@@ -1,0 +1,26 @@
+# NPC data
+name Big McIntosh
+scene SweetAppleAcres
+pos 28.3057 -106.206 -8.67731
+rot 0 2.73503 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData DEJpZyBNY2ludG9zaAEDOQEAAAAAAAAAAAAA97Jf97Jf9kpZXsNP+PDDBAANAAAAAABLkJk//58=
+
+# Quest metadata
+questId 20
+questName Big McIntosh
+questDescr Hard working farm pony.
+
+# Main quest commands
+say ...
+answer yes Fuck me!
+answer yes You're such a strong, handsome pony. Please fuck me!
+answer yes Have you been working the whole time?
+answer yes would you <i>like</i> to fuck me?
+answer yes Did you fuck Mr. Smarty Pants?
+answer yes Did you fuck Applejack?
+answer yes Please say you'd fuck me...
+
+label yes
+say Ee-yup!
+end

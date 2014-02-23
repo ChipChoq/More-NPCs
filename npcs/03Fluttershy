@@ -1,0 +1,19 @@
+# NPC data
+name Fluttershy
+scene PonyVille
+pos 81.5809 -195.304 385.49
+rot 0 -2.53791 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData CkZsdXR0ZXJzaHkDAjEBAAAAAAAAAAAAAPqjz5+g////nADOp4eyXgoACwAAAAAA769+Pwtn
+
+# Quest metadata
+questId 3
+questName Speak to Fluttershy
+questDescr Hiding in the park
+
+# Main quest commands
+say Is guessing your fetishes your fetish Anon?
+answer end ...
+
+label end
+end

@@ -1,0 +1,119 @@
+# NPC data
+name Derpy Hooves
+scene PonyVille
+pos -57.8373 -192.108 230.352
+rot 0 3.12927 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData DERlcnB5IEhvb3ZlcwMCNgEAAAAAAAAAAAAA+vuk+vukxs3g8+tbgBqPCQAMAAAAAADvOX4/aIM=
+
+# Quest metadata
+questId 16
+questName Speak to Derpy Hooves
+questDescr Standing on a skybridge
+
+# Main quest commands
+say Hello there. I haven't seen you around town before, are you new?
+answer friendly Hey Derpy! What are you doing up there?
+answer shy Um... no...
+answer sarcastic I'm as new as you are.
+answer indifferent Something like that.
+
+# Friendly interaction
+label friendly
+say I'm looking for Dinky. Have you seen her?
+answer friendlyfriendly I have, she's at school
+answer friendlyshy Dinky?
+answer friendlysarcastic I think I saw her some time ago.
+answer friendlyindifferent I guess.
+
+label friendlyfriendly
+say Oh thank you! Here's a muffin for you. -shoves a muffin down your throat and you die-
+
+label friendlyshy
+say My daughter. I think she's still at school, playing with her friends.
+answer farewell Oh, I should go now...
+
+label friendlysarcastic
+say Have you!? Where? Where? Over here? No wait, there! Oh, I hope I don't miss her!
+answer farewell Keep looking, I'm sure you'll find her eventually.
+
+label friendlyindifferent
+say Oh. Thanks anyway. If you see her come back and tell me where she is.
+answer farewell I'll keep that in mind.
+
+# Shy interaction
+label shy
+say Oh, then when you see her can you come back and tell me where she is?
+answer shyfriendly Sure!
+answer shyshy Umm... okay.
+answer shysarcastic Maybe...
+answer shyindifferent Sure...
+
+label shyfriendly
+say Thank you.
+answer farewell See ya!
+
+label shyshy
+say You okay?
+answer farewell Yes... I umm... bye.
+
+label shysarcastic
+say Thank you! Here have this muffin! -shoves a muffin through your face making you choke-
+answer farewell -cough cough- Thanks.
+
+label shyindifferent
+say Alright. See you later.
+answer farewell See you.
+
+# Sarcastic interaction
+label sarcastic
+say Oh I'm not new. I've lived in Ponyville for... a while. The name's Derpy Hooves, nice to meet you... um... you!
+answer sarcasticfriendly Nice to meet you!
+answer sarcasticshy Um... my name is...
+answer sarcasticsarcastic I'm sure.
+answer sarcasticindifferent Right.
+
+label sarcasticfriendly
+say You're very nice. Say, you haven't seen a crazy pony around here, have you? About yay high, black with watermelon cutiemarks?
+answer farewell No, sorry.
+
+label sarcasticshy
+say Sorry, I couldn't hear you. You really need to speak louder, you know?
+answer farewell I'm sorry...
+
+label sarcasticsarcastic
+say Hello, Sure! That's a really strange name for a pony... Welcome to Ponyville!
+answer farewell That wasn't my name you featherbrain.
+
+label sarcasticindifferent
+say Hello, Right! That's strange, it feels like I've heard that name before. Probably my imagination!
+answer farewell But that's not my name...
+
+# Indifferent interaction
+label indifferent
+say Well, welcome to Ponyville! The name's Derpy Hooves.
+answer indifferentfriendly That's a really nice name.
+answer indifferentshy Your eyes...
+answer indifferentsarcastic I think ditzy would be more like it.
+answer indifferentindifferent Right.
+
+label indifferentfriendly
+say Thank you! Thank you! You're a really nice pony. I should give you something. Oh, I know! Muffins! Do you like muffins? I really like the blueberry muffins, especially with butter. It goes really well on muffins! I'll get some for you later.
+answer farewell Wow, thank you!
+
+label indifferentshy
+say What? Do you find something wrong with my eyes?
+answer farewell No, I... I'm sorry...
+
+label indifferentsarcastic
+say Oh no, Ditzy lives in Cloudsdale. Some ponies say we look alike, but I don't really see it. I can introduce you to her if you like.
+answer farewell What?
+
+label indifferentindifferent
+say Ok then. You really should talk a little more, you know? You're not going to make friends with an attitude like that.
+answer farewell Whatever.
+
+# Farewell
+label farewell
+say Anyway, I have to get back to looking. She could pass by any minute and I don't want to miss her. Have fun around Ponyville!
+end

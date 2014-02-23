@@ -1,0 +1,20 @@
+# NPC data
+name Donut Steel
+scene Zecoras
+pos -137.476 0.00544062 183.77
+rot 0 2.04512 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData C0RvbnV0IFN0ZWVsBAK3AAAAAAAAAAAAAADKGgAX/wADLgP/BQBy/wAMAAsAAAAAAM3MjD//nw==
+
+# Quest metadata
+questId 0
+questName Donut Steel the edgy moose of (lethal) death that kills
+questDescr Summoning Cthulhu
+
+# Main quest commands
+say ph’nglui mglw’nafh Cthulhu R’lyeh wgah’nagl fhtagn
+answer end okay...
+
+# End of dialog with Donut Steel
+label end
+end

@@ -1,0 +1,19 @@
+# NPC data
+name Bee Bop
+scene PonyVille
+pos -337.412 -195.254 287.54
+rot 0 -2.58719 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData B0JlZSBCb3ADADIBAAAAAAAAAAAAAOPcY9S/KYbNzd7lnAPieQMABAAAAAAAQZ4yP2Zm
+
+# Quest metadata
+questId 10
+questName Speak to Bee Bop
+questDescr Standing beside the school
+
+# Main quest commands
+say Shh... Don't tell Cheerilee I'm hiding here~
+answer end Okay, I promise
+
+label end
+end

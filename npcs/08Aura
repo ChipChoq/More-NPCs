@@ -1,0 +1,19 @@
+# NPC data
+name Aura
+scene PonyVille
+pos -313.993 -195.28 279.665
+rot 0 0.862398 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData BEF1cmEBAAAAAAAAAAAAAAAAAFjQw3nb1OLE7ZroywPieQUAAwAAAAAAQZ4yP2Zm
+
+# Quest metadata
+questId 8
+questName Speak to Aura
+questDescr Standing in front of the school
+
+# Main quest commands
+say Hello mister.
+answer end ...
+
+label end
+end

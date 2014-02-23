@@ -1,0 +1,19 @@
+# NPC data
+name Twilight Sparkle
+scene PonyVille
+pos 35.5508 -195.304 413.919
+rot 0 2.24223 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData EFR3aWxpZ2h0IFNwYXJrbGUCAiwBAAAAAAAAAAAAABgqa/8xhcuZ6WI4iHiZqQ8ADwABAAAAtmp/P4Nv
+
+# Quest metadata
+questId 2
+questName Speak to Twilight Sparkle
+questDescr Standing in front of the Library
+
+# Main quest commands
+say Halp! I've been locked out of the library. Spike you shmuck...
+answer end ...
+
+label end
+end

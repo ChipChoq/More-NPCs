@@ -1,0 +1,120 @@
+# NPC data
+name Pinkie Pie
+scene PonyVille
+pos -9.88497 -195.304 348.413
+rot 0 1.20736 0 1
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData ClBpbmtpZSBQaWUBAi0BAAAAAAAAAAAAAP8yhf8yhf+w1V+/8WKFXgcABwAAAAAAQip/P2J8
+
+# Quest metadata
+questId 5
+questName Speak to Pinkie Pie
+questDescr Standing in front of Sugarcube Corner
+
+# Main quest commands
+say Welcome welcome welcome! A fine welcome to you! Welcome welcome welcome! I say how do you do? Welcome welcome welcome! I say hip hip hurray! Welcome welcome welcome! To Ponyville todaaay!
+answer friendly Catchy.
+answer shy Um... hi?
+answer sarcastic Right.
+answer indifferent Are you always this energetic?
+
+# Friendly interaction
+label friendly
+say Thanks! It took me a long time to get it juuust right.
+answer friendlyfriendly It shows!
+answer friendlyshy Oh, um...
+answer friendlysarcastic I'm sure that was hard to come up with.
+answer friendlyindifferent If you say so.
+
+label friendlyfriendly
+say Oh! Did you need something from Sugarcube Corner? You can just go in; the Cakes make the best cakes!
+answer farewell No, but thank you!
+
+label friendlyshy
+say Oh! Did you need something from Sugarcube Corner? You can just go in; you don't have to be shy!
+answer farewell Not right now...
+
+label friendlysarcastic
+say It was! Hey, why don't you go to Sugarcube Corner? There's tons of cakes and pies and cupcakes and everything!
+answer farewell Sure, I'll get right on that.
+
+label friendlyindifferent
+say Oh, I say so! And when I say something, I mean it! So when I say that Sugarcube Corner has the best cupcakes in town, you know it! That's a Pinkie Pie guarantee!
+answer farewell They have the only cupcakes in town...
+
+# Shy interaction
+label shy
+say Hi! I haven't seen you around here before, so you must be new, and if you're new then you must not have any friends. So I thought I would sing a song for you to make you feel welcome, because welcome is my middle name! Oh actually it's Diane, but I don't like it very much. Oh, unless your middle name is Diane? I didn't mean to offend you! I'm so so sorry!
+answer shyfriendly It's alright!
+answer shyshy My middle name isn't Diane...
+answer shysarcastic Nice to meet you, Diane.
+answer shyindifferent Sorry, I didn't catch any of that.
+
+label shyfriendly
+say Is it? Is it really? I have to make it up to you. Please let me make it up to you?
+answer farewell No really, it's alright.
+
+label shyshy
+say Really? Then why did you say it was? It's not nice to lie to people you've just met you know.
+answer farewell But... I didn't say it was...
+
+label shysarcastic
+say Oh, you can call me Pinkie Pie. Everypony in town calls me Pinkie Pie. Well unless I haven't met them yet, then they don't call me Pinkie Pie. But we've already met, silly!
+answer farewell I... what?
+
+label shyindifferent
+say You don't have to be sorry, I forgive you. That's what friends do!
+answer farewell But we're not... Never mind.
+
+# Sarcastic interaction
+label sarcastic
+say Right? Well, right from here is Twilight's house. She's very nice, but you shouldn't bother her if she's busy. She knows lots of funny words too, even if I think she makes up most of them. Precipice? What even is that? Oh, unless you meant my right? That's where the train station is. We get lots of visitors from Canterlot. They love cupcakes! My favorites are the peanut butter and cherry frosting ones. They're so good, you should have some!
+answer sarcasticfriendly Thanks! That's very helpful.
+answer sarcasticshy I don't really like cupcakes...
+answer sarcasticsarcastic That's... not what I meant.
+answer sarcasticindifferent What?
+
+label sarcasticfriendly
+say It's no problem at all! But if you ask me, you should go to Sugarcube Corner. Oh, have you been to Sugarcube Corner yet?
+answer farewell No, but thank you!
+
+label sarcasticshy
+say What? Who doesn't like cupcakes? Oh wait, you don't like cupcakes. Well, they also have tons of cakes and pies too. You should really try some.
+answer farewell Not right now...
+
+label sarcasticsarcastic
+say That wasn't right? Then did you mean write? Or rite? Or wright? Or kite? Or night? Or dite?
+answer farewell ... That's not even a word.
+
+label sarcasticindifferent
+say What what?
+answer farewell No. Never mind.
+
+# Indifferent interaction
+label indifferent
+say Oh all the time! This one time I went to help Applejack buck apples. She kept running ahead of me, I guess she was really in a hurry to finish getting all those apples. She really loves apples, did you know that? I was trying to tell her about this new recipe I found for chocolate cherry pumpkin cake, but I wasn't sure what would be a good name. Chumpkin? Or cherrocolate? Chumpkin? Cherrocolate? I'm still not sure!
+answer indifferentfriendly I like chumpkin!
+answer indifferentshy Um... cherrocolate.
+answer indifferentsarcastic I don't even.
+answer indifferentindifferent ... Yes.
+
+label indifferentfriendly
+say Really? I thought cherrocolate was better. Oh, maybe pumcherrolate!
+answer farewell Perfect!
+
+label indifferentshy
+say Yes! I'm glad we agree. We have a lot in common, don't you think?
+answer farewell Not really...
+
+label indifferentsarcastic
+say Don't even what? Know? Speak? Talk? Buzz? Crow? Jellyfish? Pumpkinate?
+answer farewell ... That's not even a word.
+
+label indifferentindifferent
+say I'm glad we agree. We have a lot in common, don't you think?
+answer farewell I hope not.
+
+# Farewell
+label farewell
+say Well, it was nice talking with you! I'll throw a party for you later, but I really should get back to waiting. There's this big delivery that the Cakes are waiting for, but it hasn't come in all day. See you later!
+end

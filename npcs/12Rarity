@@ -1,0 +1,38 @@
+# NPC data
+name Rarity
+scene RaritysBoutique
+pos 24.7333 -1.16802 -51.7106
+rot 0 -180.25 0 1
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData BlJhcml0eQICMAEAAAAAAAAAAAAAZEyiZEyi7fH0Uom+hYWFCAAIAAEAAADv+30/ZmY=
+
+# Quest metadata
+questId 12
+questName Speak to Rarity
+questDescr Standing in front of the mirror
+
+# Main quest commands
+say Oh, hello. I don't believe we've met.
+answer howdo Hello, how do you do?
+answer bother Hi, sorry to bother you...
+
+label howdo
+say I am a little busy, but that's nothing unusual. Is there something I can help you with?
+answer farewell No, I just wanted to say hi.
+answer farewell I doubt it.
+answer farewell Maybe...
+
+label bother
+say It's no bother, though I am a little busy. Is there something I can help you with?
+answer farewell No, I just wanted to say hi.
+answer farewell I doubt it.
+answer farewell Maybe...
+
+label farewell
+say Well, it was nice of you to drop in. Please come back again!
+answer end Will do!
+answer end Maybe.
+answer end I don't think so...
+
+label end
+end

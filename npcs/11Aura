@@ -1,18 +1,18 @@
 # NPC data
-name Dinky
+name Aura
 scene PonyVille
-pos -313.777 -195.276 278.862
-rot 0 -0.418879 0 0
+pos -313.993 -195.28 279.665
+rot 0 0.862398 0 0
 # PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
-ponyData CURpbmt5IERvbwIAAAAAAAAAAAAAAAAA7uGl7enOzb7j9eCJA+J5BAALAAAAAABBnjI/ZmY=
+ponyData BEF1cmEBAAAAAAAAAAAAAAAAAFjQw3nb1OLE7ZroywPieQUAAwAAAAAAQZ4yP2Zm
 
 # Quest metadata
-questId 9
-questName Speak to Dinky
+questId 11
+questName Speak to Aura
 questDescr Standing in front of the school
 
 # Main quest commands
-say I need an adult!!
+say Hello mister.
 answer end ...
 
 label end

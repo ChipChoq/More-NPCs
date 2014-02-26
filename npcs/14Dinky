@@ -1,0 +1,19 @@
+# NPC data
+name Dinky
+scene PonyVille
+pos -313.777 -195.276 278.862
+rot 0 -0.418879 0 0
+# PonyData is not the ponyCode. It's faster but you can't get it directly from the ponyCreator.
+ponyData CURpbmt5IERvbwIAAAAAAAAAAAAAAAAA7uGl7enOzb7j9eCJA+J5BAALAAAAAABBnjI/ZmY=
+
+# Quest metadata
+questId 15
+questName Speak to Dinky
+questDescr Standing in front of the school
+
+# Main quest commands
+say I need an adult!!
+answer end ...
+
+label end
+end
